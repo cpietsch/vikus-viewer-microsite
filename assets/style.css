@@ -139,8 +139,8 @@ body {
 }
 
 section {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   box-sizing: border-box;
 }
 
@@ -192,7 +192,7 @@ a, a:visited {
 
 .span-1 {
   width: calc( 50% - 0rem );
-	padding: 5rem 0;
+	padding: 3rem 0;
 	font-size: 1.25rem;	
 }
 
@@ -213,7 +213,6 @@ a, a:visited {
 }
 
 .span-right {
-	xfloat: left;
   margin-top: 9rem;
 }
 
@@ -225,7 +224,7 @@ a, a:visited {
 
 
 section.header {
-  background-color: #555;
+  background-color: #333;
 	color: white;
 	text-align: center;	
 }
@@ -234,6 +233,13 @@ section.video {
   background-color: #444;
 	color: white;
 	text-align: center;	
+	padding: 0;
+	line-height: 0;
+}
+
+section.video .container {
+	width: 100%;
+	max-width: 100%;
 }
 
 /*
@@ -318,9 +324,9 @@ blockquote {
 }
 
 .info .span-0 {
-	width: 80%; 
+	width: 84%; 
 	padding: 0;
-	margin: 3rem 10%;
+	margin: 3rem 8%;
 }
 
 
@@ -376,7 +382,6 @@ blockquote {
 }
 
 .vis-info {
-	xbackground: linear-gradient(0deg, rgba(255,255,255,1), rgba(255,255,255,0));
 	text-align: center;
 	font-size: 1rem;
 	color: #fff;
@@ -478,10 +483,6 @@ p:last-of-type {
 /*
  * Links & Buttons
  * ----------------------------------------- */
-
-a {
-  xtext-decoration: none;
-}
 
 a:hover {
   text-decoration: underline;
@@ -586,17 +587,6 @@ img {
 
 
 
-@media all and (max-width: 640px) and (max-height: 720px) {
-
-  .project-title {
-    margin-bottom: 10vh;
-  }
-
-  .blockquotes {
-    display: none;
-  }
-
-}
 
 
 
@@ -636,6 +626,10 @@ img {
 	  width: 50%;
 		margin: 0 25%;
 	}
+	
+	.span-1 {
+		padding: 1rem 0;
+	}
 
 }
 
@@ -647,9 +641,23 @@ img {
     display: none;
   }
 
+	.info .span-0 {
+		width: 100%; 
+		margin: 3rem 0
+	}
+
+
 	.span-1 img {
 	  width: 50%;
 		margin: 0 25%;
+	}
+	
+	.span-1 {
+		padding: 1rem 0;
+	}
+	
+	.vis .container {
+		width: 100%;
 	}
 
 }
@@ -669,6 +677,20 @@ img {
   .project-title-main {
     font-size: 2.5rem;
   }
+	
+	.info .span-0 {
+		width: 100%; 
+		margin: 3rem 0
+	}
+	
+	
+	.span-1 {
+		padding: 1rem 0;
+	}
+	
+	.vis .container {
+		width: 100%;
+	}
 	
 
 }
