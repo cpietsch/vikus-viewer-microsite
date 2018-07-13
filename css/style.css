@@ -63,10 +63,9 @@ html {
 
 body {
   margin: 0;
-  background: #0c0c0c;
-  color: #f6f1d6;
+  background: #f8f9fb;
+  color: #000;
   font-family: 'Lato', 'futura', 'helvetica', sans-serif;
-  color: #fff;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
    -webkit-font-smoothing: antialiased;
@@ -175,7 +174,7 @@ header {
   background-position: center center;
   background-size: cover;
   text-align: center;
-  color: #f6f1d6;
+  color: #fff;
 }
 
 .header-inner {
@@ -266,7 +265,7 @@ blockquote {
  */
 
 .about {
-  background-color: #555;
+  background-color: #ebeef3;
 }
 
 .about.clearfix {
@@ -279,7 +278,7 @@ blockquote {
  */
 
 .info {
-  background-color: #555;
+  background-color: #ebeef3;
 }
 
 
@@ -304,10 +303,10 @@ blockquote {
   display: inline-block;
   width: 18rem;
   height: 18rem;
-  background-color: #f6f1d6;
+  background-color: #C6C6CB;
   border-radius: 100%;
   text-align: center;
-  color: #000;
+  color: #FFF;
   display: table;
   font-size: 1rem;
   text-transform: uppercase;
@@ -329,8 +328,8 @@ blockquote {
 }
 
 .link-to-vis:hover {
-  background-color: #555;
-  color: #f6f1d6;
+  background-color: #b1b1b7;
+  color: #FFF;
 }
 
 .link-to-vis:hover .arrow-down-black:after {
@@ -340,7 +339,7 @@ blockquote {
 .vis-info {
 text-align: center;
 font-size: 1rem;
-color: #f6f1d6;
+color: #000;
 }
 
 .msg-no-mobile .arrow {
@@ -432,12 +431,12 @@ p:last-of-type {
  * ----------------------------------------- */
 
 a {
-  color: #fff;
-  border-bottom: 2px solid rgba( 255,255,255, .5 );
+  color: #000;
+  border-bottom: 2px solid rgba( 0,0,0, .5 );
 }
 
 a:hover {
-  border-bottom: 2px solid rgba( 255,255,255, 1 );
+  border-bottom: 2px solid rgba( 0,0,0, 1 );
 }
 
 .btn-feedback {
