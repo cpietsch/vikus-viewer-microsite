@@ -1,1 +1,0 @@
-# vikus-viewer-micosite
