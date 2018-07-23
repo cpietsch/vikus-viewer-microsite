@@ -138,7 +138,7 @@ body {
 }
 
 section {
-  margin-bottom: 3rem;
+  xmargin-bottom: 3rem;
   padding-top: 7rem;
   padding-bottom: 7rem;
   box-sizing: border-box;
@@ -279,7 +279,8 @@ blockquote {
  */
 
 .info {
-  background-color: #555;
+  background-color: #333;
+	color: #aaa;
 }
 
 
@@ -288,7 +289,8 @@ blockquote {
  */
 
 .vis {
-  padding: 0 0 3rem;
+  padding: 5rem 0;
+	background-color: #1c1e1f;
 }
 
 .vis .container {
@@ -299,7 +301,7 @@ blockquote {
 
 .link-to-vis {
   position: absolute;
-  top: calc( 50% - 12rem );
+  top: calc( 50% - 10rem );
   left: calc( 50% - 9rem );
   display: inline-block;
   width: 18rem;
@@ -310,7 +312,7 @@ blockquote {
   color: #000;
   display: table;
   font-size: 1rem;
-  text-transform: uppercase;
+  xtext-transform: uppercase;
   letter-spacing: .1em;
   line-height: 1.2;
 }
