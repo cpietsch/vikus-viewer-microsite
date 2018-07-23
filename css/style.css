@@ -298,7 +298,7 @@ blockquote {
 
 .link-to-vis {
   position: absolute;
-  top: calc( 50% - 12rem );
+  top: calc( 50% - 6.5rem );
   left: calc( 50% - 9rem );
   display: inline-block;
   width: 18rem;
@@ -309,7 +309,7 @@ blockquote {
   color: #FFF;
   display: table;
   font-size: 1rem;
-  text-transform: uppercase;
+  xtext-transform: uppercase;
   letter-spacing: .1em;
   line-height: 1.2;
 }
@@ -384,14 +384,13 @@ color: #000;
 .imprint {
   font-size: 1rem;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   color: #888;
 }
 
 .imprint p {
   margin-bottom: .75rem;
 }
-
 
 
 /*
