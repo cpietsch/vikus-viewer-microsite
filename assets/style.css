@@ -224,13 +224,13 @@ a, a:visited {
 
 
 section.header {
-  background-color: #333;
+	background-color: #555;	
 	color: white;
 	text-align: center;	
 }
 
 section.video {
-  background-color: #444;
+  background-color: #333;
 	color: white;
 	text-align: center;	
 	padding: 0;
@@ -413,7 +413,7 @@ blockquote {
 .research {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background: #2b2b2b;
+  background: #2a2a2a;
   margin: 0;
 }
 
